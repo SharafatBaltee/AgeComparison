@@ -1,0 +1,19 @@
+print("Enter the ages of persons")
+a= int(input("Enter the age of first person "))
+b= int(input("Enter the age of second person "))
+c= int(input("Enter the age of third person "))
+if (b<a>c):
+    print("\nThe first person is oldest ",a)
+elif (a<b>c):
+    print("\nThe second person is oldest ",b)
+elif (a<c>b) :
+    print("\nThe third person is oldest ", c)
+else :print("this is not valid")
+
+if (b>a<c):
+    print("\nThe first person is youngest ",a)
+elif (a>b<c):
+    print("\nThe second person is youngest ",b)
+elif (a>c<b) :
+    print("\nThe third person is youngest ", c)
+else :print("this is not valid")
